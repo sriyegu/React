@@ -64,7 +64,7 @@ function Happeningbox( props) {
         <div className="App-happening">
             <div className={classes.wrap}>
                 <form  onSubmit={props.tweet} >
-                <textarea className={classes.ntextarea} onChange={props.change} placeholder="What's Happening..."></textarea>
+                <textarea className={classes.ntextarea} onChange={props.change} placeholder="What's tfhfgh Happening..."></textarea>
                    <Divider />
                    <div className={classes.root}>
                         <Grid container spacing={3}>
