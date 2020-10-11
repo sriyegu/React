@@ -15,8 +15,18 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  min-height: 6vh;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-home {
+  background-color: #282c34;
+  min-height: 90vh;
+  display: block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -24,8 +34,55 @@
   color: white;
 }
 
+.App-nhome {
+  color: #282c34;
+  min-height: 90vh;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: white;
+}
+
 .App-link {
-  color: #61dafb;
+  color: white;
+  padding-left: 2%;
+  cursor: pointer;
+}
+.App-tweet {
+  background : rgb(29 161 242) !important;
+  border-radius:20px !important;
+  text-transform :capitalize !important;
+  font-weight: 600 !important;
+  width: 65% !important;
+
+}
+
+.MuiListItem-gutters {
+  padding-left: 74px !important;
+  padding-right: 16px !important;
+}
+.MuiTypography-body1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif !important;
+    border: 0 solid black !important;
+    box-sizing: border-box !important;
+    color: rgba(0,0,0,1.00) !important;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+}
+.makeStyles-container-13 {
+  padding: 15px 12px !important;  
+}
+
+.MuiSvgIcon-root{
+  font-size: 34px !important;
+}
+
+.makeStyles-content-12 {
+  height: 100vh;
+  overflow: inherit !important;
+  flex-grow: 1;
 }
 
 @keyframes App-logo-spin {
